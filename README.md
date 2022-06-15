@@ -18,13 +18,12 @@ Protect your Telegram account from intruders!
  - Get the session hashes by running `getSessionHash.py` (You can put as many hashes as you want, but **it's necessary that the hashes belong to one account only**)
  - After you have started `getSessionHash.py` you will be asked to input the phone number of the account: a new session will be created in the `/session` directory
  - Before running the `main.py` file, you need to start the conversation with the bot (You just need to type `/start`)
+ - **The created session will be able to eliminate intruders 24 hours after its creation**
 
 ## Usage
 - Run the `main.py` file
 - The bot will send you this message: `Bot started.`
 - You can list all of your sessions with the `/list` command
-
-**The created session will be able to eliminate intruders 24 hours after its creation**
 
 # Warning
 If anything goes wrong, the only session that will not be deleted is the one used in this app.
