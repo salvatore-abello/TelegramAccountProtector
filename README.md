@@ -24,6 +24,7 @@ Protect your Telegram account from intruders!
 - The bot will send you this message: `Bot started.`
 - You can list all of your sessions with the `/list` command
 
+**The created session will be able to eliminate intruders 24 hours after its creation**
 
 # Warning
 If anything goes wrong, the only session that will not be deleted is the one used in this app.
