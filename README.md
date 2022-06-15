@@ -5,7 +5,7 @@ Protect your Telegram account from intruders!
 - Check every second if an intruder has passed the login with the code
 - Proceed to delete the intruder session
 - All information about the intruder is sent to you. Here's an example:
-<img width="237" alt="SessionTest" src="https://user-images.githubusercontent.com/107145304/173835512-13db8975-dcd6-47c3-b3e4-e9e1a94727c9.png">
+  <img width="237" alt="SessionTest" src="https://user-images.githubusercontent.com/107145304/173835512-13db8975-dcd6-47c3-b3e4-e9e1a94727c9.png">
 
 - List active sessions with `/list`
 - Print all the activities in the terminal
