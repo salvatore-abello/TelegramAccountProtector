@@ -162,7 +162,7 @@ Password pending: {auth.password_pending}
                 self.client.disconnect()
                 printError("Client disconnected")
                 printError("Exiting...")
-                sys.exit(-1)
+                sys.exit(0)
 
 
 worker = TelegramAccountProtector(api_id, api_hash, TOKEN)
