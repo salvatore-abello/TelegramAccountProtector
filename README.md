@@ -11,7 +11,7 @@ Protect your Telegram account from intruders!
 - Print all the activities in the terminal
 
 ## Setup
- - First of all, install al dependencies with `pip install -r requirements.txt`
+ - First of all, install all dependencies with `pip install -r requirements.txt`
  - Then, you need to change all values in the config file, located in `/config/config.cfg`
  - You can obtain the `id` and the `hash` from https://my.telegram.org/
  - Get the `bot_token` value from [@BotFather](https://t.me/BotFather "@BotFather")
