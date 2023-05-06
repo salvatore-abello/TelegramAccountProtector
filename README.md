@@ -1,5 +1,5 @@
 # TelegramAccountProtector
-Add an (additional) layer of security to your telegram accounts.
+Add an (additional) layer of security to your Telegram accounts.
 
 ## Features
 - Check every second if an intruder has passed the login with the code
