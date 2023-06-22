@@ -18,7 +18,7 @@ def getSessionInfo(client):
     if __name__ == "__main__": print(auths.stringify())
     for auth in auths.authorizations:
         msg += f"""
-INFORMATIONS:
+INFORMATION:
 #====================================#
 Hash: {auth.hash} --> {type(auth.hash)}
 is_official_app: {auth.official_app}
