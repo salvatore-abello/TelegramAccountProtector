@@ -50,7 +50,7 @@ class TelegramAccountProtector:
         auths = self.init_auth
         for auth in auths:
             msg += f"""
-INFORMATIONS:
+INFORMATION:
 #====================================#
 Hash: {auth.hash} --> {type(auth.hash)}
 is_official_app: {auth.official_app}
