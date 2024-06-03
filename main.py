@@ -55,7 +55,6 @@ INFORMATION:
 Hash: {auth.hash} --> {type(auth.hash)}
 is_official_app: {auth.official_app}
 Country: {auth.country}
-Ip: {auth.ip}
 App name: {auth.app_name}
 Device: {auth.device_model}
 Platform: {auth.platform}
@@ -94,7 +93,6 @@ Password pending: {auth.password_pending}
                f"*App version:* {self.escapeChars(auth.app_version)}\n" \
                f"*Session created at:* {self.escapeChars(auth.date_created)}\n" \
                f"*Date active:* {self.escapeChars(auth.date_active)}\n" \
-               f"*IP:* {self.escapeChars(auth.ip)}\n" \
                f"*Country:* {self.escapeChars(auth.country)}\n" \
                f"*Region:* {self.escapeChars(auth.region)}\n" \
                f"Current session? {auth.current}\n" \
@@ -133,10 +131,6 @@ Password pending: {auth.password_pending}
                 if self.init_auth != auths and len(auths) > len(self.init_auth):
                     for user in auths:
                         if user.hash not in self.my_hashes and int(user.hash) != 0:
-                            if user.ip == current_session.ip:
-                                self.init_auth = auths
-                                continue
-
                             result = self.deleteSession(auths, user)
 
                             self.init_auth = auths
